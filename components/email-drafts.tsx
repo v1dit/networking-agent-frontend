@@ -38,7 +38,7 @@ export function EmailDrafts({ selectedContacts }: EmailDraftsProps) {
     setSent(true)
     toast({
       title: "Email sent!",
-      description: "Your message has been delivered via InboxPilot",
+      description: "Your message has been delivered",
     })
     setTimeout(() => setSent(false), 3000)
   }
@@ -89,8 +89,6 @@ export function EmailDrafts({ selectedContacts }: EmailDraftsProps) {
             )}
           </Button>
         </div>
-
-        <div className="text-xs text-muted-foreground text-center pt-2">Powered by NVIDIA Nemotron + InboxPilot</div>
       </CardContent>
     </Card>
   )

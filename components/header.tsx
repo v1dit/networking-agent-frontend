@@ -10,7 +10,6 @@ export function Header() {
           </div>
           <span className="text-xl font-bold text-foreground font-heading">NetMind</span>
         </div>
-        <div className="text-sm text-muted-foreground">Powered by NVIDIA NIM</div>
       </div>
     </header>
   )
